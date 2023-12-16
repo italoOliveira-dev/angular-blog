@@ -1,0 +1,24 @@
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+    <!-- Definindo o gradiente linear -->
+    <defs>
+        <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color: #fc2a86;" />
+            <stop offset="100%" style="stop-color: #fd5b3f;" />
+        </linearGradient>
+
+        <!-- Adicionando a fonte "Pacifico" -->
+        <style>
+            <![CDATA[
+                @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+            ]]>
+        </style>
+    </defs>
+
+    <!-- Adicionando o círculo com o gradiente como plano de fundo -->
+    <circle cx="50" cy="50" r="40" fill="url(#gradient)" />
+
+    <!-- Adicionando a letra "I" no centro com font-weight bold e a fonte "Pacifico" -->
+    <text x="50%" y="55%" alignment-baseline="middle" text-anchor="middle" font-size="50" fill="#ffffff" font-family="Open Sans" font-weight="bold">I</text>
+</svg>
+
+
