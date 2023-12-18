@@ -1,0 +1,15 @@
+.container__menu-bar {
+    width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-bar-nav>ul {
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    list-style-type: none;
+}

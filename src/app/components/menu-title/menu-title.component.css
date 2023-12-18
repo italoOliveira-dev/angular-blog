@@ -1,15 +1,17 @@
 .container__menu-title {
-  color: #ffffff;
-  padding: 0 20px;
+    width: 1450px;
+    margin: 0 auto;
+    color: #ffffff;
+    padding: 0 20px;
 }
 
-.container__menu-title > h1 {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  font-size: 135px;
-  font-weight: 700;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: center;
+.container__menu-title>h1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 135px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
 }
