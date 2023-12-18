@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 import { BigCardComponent } from "../../components/big-card/big-card.component";
 import { MenuBarComponent } from "../../components/menu-bar/menu-bar.component";
 import { MenuTitleComponent } from '../../components/menu-title/menu-title.component';
@@ -9,7 +10,7 @@ import { SmallCardComponent } from "../../components/small-card/small-card.compo
     standalone: true,
     templateUrl: './home.component.html',
     styleUrl: './home.component.css',
-    imports: [MenuTitleComponent, BigCardComponent, SmallCardComponent, MenuBarComponent]
+    imports: [MenuTitleComponent, BigCardComponent, SmallCardComponent, MenuBarComponent, RouterLink]
 })
 export class HomeComponent {
 
